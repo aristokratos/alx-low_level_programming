@@ -2,16 +2,17 @@
 
 
 /**
- * _isupper - checks if value is upper case
+ * _isdigit - checks if value a digit 0-9
  *
- * @c: character to be checked
+ * @c: int to be checked
  *
- * Return: 1 if c is capital, otherwise 0
+ * Return: 1 if c is a digit, otherwise 0
  **/
 
-int _isupper(int c)
+int _isdigit(int c)
 {
-	if (c >= 'A' && c <= 'Z')
+	if (c >= 48 && c <= 57)
 		return (1);
-	return (0);
+	else
+		return (0);
 }
