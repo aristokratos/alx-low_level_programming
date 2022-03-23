@@ -1,0 +1,2 @@
+#!/bin/bash
+xgcc -E $CFILE -o c
