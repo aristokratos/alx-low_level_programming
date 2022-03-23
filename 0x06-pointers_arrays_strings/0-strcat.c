@@ -4,7 +4,7 @@
  * @dest: pointer destination
  * @src: pointer source
  * Return: void
-*/
+**/
 
 char *_strcat(char *dest, char *src)
 {
@@ -18,4 +18,5 @@ do {
 	i++;
 } while (src[a] != '\0');
 
-return
+return (dest);
+}
