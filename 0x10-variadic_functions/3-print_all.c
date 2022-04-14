@@ -40,3 +40,15 @@ break;
 j = i + 1;
 
 while (format[j] && (format[j] == 'c' || format[j] == 'i' ||
+format[j] == 'f' || format[j] == 's'))
+{
+printf(", ");
+break;
+}
+
+i++;
+}
+printf("\n");
+va_end(ls);
+return;
+}
