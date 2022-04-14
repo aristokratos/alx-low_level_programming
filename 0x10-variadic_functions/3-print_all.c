@@ -4,7 +4,7 @@
 #include "variadic_functions.h"
 
 /**
- * function that print_all - prints anything
+ * print_all - prints anything
  * @format: any variable type
  * Return: Nothing
 **/
